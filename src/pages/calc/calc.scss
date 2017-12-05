@@ -1,0 +1,41 @@
+page-calc {
+    .container{
+        display: flex;
+        margin: 0 auto;
+    }
+    .button-class {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        margin: 5px;
+        background: #222;
+        color: white;
+        font-size: 30px;
+    }
+    .result {
+        height: 100px;
+        /* border: dotted; */
+        color: white;
+        text-align: right;
+        padding: 20px;
+    }
+    .body {
+        background: black;
+        color: white;
+    }
+    .button-group {
+        padding: 20px;
+    }
+
+    .style1 {
+        color: black;
+        background: #999;
+    }
+    .style2 {
+        background: #ff6a00;
+    }
+    .style4 {
+        width: 150px;
+        border-radius: 35px;
+    }
+}
